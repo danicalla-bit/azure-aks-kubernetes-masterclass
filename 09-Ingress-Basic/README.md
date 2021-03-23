@@ -44,6 +44,8 @@ kubectl create namespace ingress-basic
 # Add the official stable repository
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+#https://helm.sh/blog/new-location-stable-incubator-charts/ new location
+
 helm repo update
 
 #  Customizing the Chart Before Installing. 
